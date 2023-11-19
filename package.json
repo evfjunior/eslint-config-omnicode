@@ -1,0 +1,25 @@
+{
+  "name": "@starfell/eslint-config-omnicode",
+  "version": "1.0.0",
+  "description": "An ESLint configuration ruleset for projects using Typescript.",
+  "private": false,
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-config-standard"
+  ],
+  "author": "evfjunior",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evfjunior/eslint-config-omnicode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evfjunior/eslint-config-omnicode/issues"
+  },
+  "homepage": "https://github.com/evfjunior/eslint-config-omnicode#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
