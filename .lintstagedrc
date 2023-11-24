@@ -1,6 +1,9 @@
 {
-  "*.{js,!(package*).json,md}": [
-    "prettier --write",
-    "eslint --fix"
+  "*.js": [
+    "npm run lint",
+    "npm run prettify"
+  ],
+  "**/*.{md,yml,json,eslintrc,prettierrc}": [
+    "npm run prettify"
   ]
 }

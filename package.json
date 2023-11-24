@@ -21,7 +21,9 @@
   "main": "index.js",
   "scripts": {
     "cm": "cz",
+    "lint": "eslint --max-warnings=0 --fix",
     "prepack": "pinst --disable",
+    "prettify": "prettier --write",
     "postpack": "pinst --enable",
     "prepare": "husky install"
   },
