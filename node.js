@@ -2,15 +2,15 @@ module.exports = {
   root: true,
   env: {
     es2021: true,
-    node: true,
-    jest: true
+    jest: true,
+    node: true
   },
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier',
     'plugin:node/recommended',
     'plugin:prettier/recommended',
+    'prettier',
     'standard-with-typescript'
   ],
   parser: '@typescript-eslint/parser',
@@ -31,8 +31,8 @@ module.exports = {
   ],
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
-    'prettier/prettier': 'error',
     'arrow-body-style': 'off',
-    'prefer-arrow-callback': 'off'
+    'prefer-arrow-callback': 'off',
+    'prettier/prettier': 'error'
   }
 }
