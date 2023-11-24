@@ -9,6 +9,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
+    'plugin:node/recommended',
     'plugin:prettier/recommended',
     'standard-with-typescript'
   ],
@@ -22,9 +23,7 @@ module.exports = {
       env: {
         node: true
       },
-      files: [
-        '.eslintrc.{js,cjs}'
-      ],
+      files: ['.eslintrc.{js,cjs}'],
       parserOptions: {
         sourceType: 'script'
       }
