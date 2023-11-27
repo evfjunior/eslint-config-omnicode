@@ -1,6 +1,6 @@
 {
   "name": "@starfell/eslint-config-omnicode",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "An ESLint configuration ruleset for projects using Typescript.",
   "private": false,
   "keywords": [
@@ -23,7 +23,8 @@
     "cm": "cz",
     "lint": "eslint --max-warnings=0 --fix",
     "prettify": "prettier --write",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic:release": "semantic-release"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.12.0",
@@ -49,6 +50,7 @@
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.0",
-    "lint-staged": "^15.1.0"
+    "lint-staged": "^15.1.0",
+    "semantic-release": "^22.0.8"
   }
 }
